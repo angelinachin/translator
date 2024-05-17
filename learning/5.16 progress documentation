@@ -1,0 +1,26 @@
+5/16 progress:
+
+Worked on backend development of translation functionality of Python application
+The goal of this project is to develop a Python application that captures spoken language,
+translates it into another language using the Microsoft Translator API, and then converts the
+translated text into speech using Azure Cognitive Services' Speech SDK. 
+Firstly, I learned how to set up the development environment, installing necessary Python packages 
+such as `speech_recognition`, `requests`, and `azure-cognitiveservices-speech`, and configured the 
+environment to include these libraries. 
+Current library functions:
+
+
+Secondly, I implemented the speech recognition functionality by utilizing the `speech_recognition` 
+library to capture audio from the microphone, adjusting for ambient noise to improve recognition accuracy. 
+I then used Google's speech recognition service to convert spoken Chinese (Mandarin) into text. 
+Through this process, I learned how to capture and process audio input in Python and use external APIs for 
+speech recognition. Additionally, I integrated the Microsoft Translator API to handle text translation from 
+Mandarin to Cantonese, which involved understanding API request structures and handling JSON responses. I also 
+explored Azure Cognitive Services' Speech SDK for converting the translated text into speech, learning how to
+synthesize audio output and handle exceptions. Furthermore, I gained some insight into incorporating Large 
+Language Models (LLMs) into projects, which enhanced my understanding of using advanced AI capabilities for
+language processing tasks. This experience has significantly broadened my skills in working with APIs, managing 
+audio input and output, and integrating complex AI models into applications.
+
+
+
