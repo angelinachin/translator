@@ -5,11 +5,11 @@ import uuid
 import azure.cognitiveservices.speech as speechsdk
 
 # Set up Microsoft Translate API parameters
-key = "cb63e81edc9b4f0d9c99f5c4fc6261a7"  # Replace with your API key
+key = "cb63e81edc9b4f0d9c99f5c4fc6261a7"  
 endpoint = "https://api.cognitive.microsofttranslator.com"
 location = "westus2"
 
-# Set up your Azure subscription key and region
+# Set up Azure subscription key and region
 subscription_key = "a2c9ce64e8a74f04a85b547dac85584b"
 region = "westus2"
 
